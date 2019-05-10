@@ -16,13 +16,6 @@ h1 {
     margin-top: 2%;
 }
 
-
-/*
-.wrapper {
-    background-image: url("http://i.imgur.com/BFBYJUV.jpg");
-}
-*/
-
 .table {
    font-family: 'Roboto', sans-serif;
 
@@ -35,7 +28,6 @@ caption {
 
 .panel {
 	border-radius: 25px;
-/*    background-color: #62929E;*/
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2%;

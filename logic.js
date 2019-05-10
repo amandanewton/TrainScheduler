@@ -1,3 +1,4 @@
+// Initialize firebase
 var config = 	{
 	apiKey: "AIzaSyAGXDEQ4tnwyU_eGLqUXvH-oM3n4Fo6TDg",
 	authDomain: "trainscheduler-b2808.firebaseapp.com",
@@ -27,8 +28,6 @@ $("#click-button").on("click", function() {
 	  var trainNameForm = $("#trainNameForm").val().trim();
 	  var destinationForm = $("#destinationForm").val().trim();
 	  var trainTimeForm = moment($("#trainTimeForm").val().trim(), "HH:mm").format("HH:mm");
-	//Saving this goodness
-//	  var frequencyForm = moment($("#frequencyForm").val().trim().format("mm"));
 	  var frequencyForm = $("#frequencyForm").val().trim();
 
 	  // Creates local "temporary" object for holding inputs
