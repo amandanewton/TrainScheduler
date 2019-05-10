@@ -1,11 +1,12 @@
-var config = {
-    apiKey: "AIzaSyCzn78NKDPBKEMeEpFnpPFRDZnBF1MGcuA",
-    authDomain: "trainschedule-b8ac1.firebaseapp.com",
-    databaseURL: "https://trainschedule-b8ac1.firebaseio.com",
-    projectId: "trainschedule-b8ac1",
-    storageBucket: "trainschedule-b8ac1.appspot.com",
-    messagingSenderId: "539883479478"
-  };
+var config = 	{
+	apiKey: "AIzaSyAGXDEQ4tnwyU_eGLqUXvH-oM3n4Fo6TDg",
+	authDomain: "trainscheduler-b2808.firebaseapp.com",
+	databaseURL: "https://trainscheduler-b2808.firebaseio.com",
+	projectId: "trainscheduler-b2808",
+	storageBucket: "trainscheduler-b2808.appspot.com",
+	messagingSenderId: "454877309296",
+};
+
   firebase.initializeApp(config);
 
 // Create a variable to reference the database
